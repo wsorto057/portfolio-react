@@ -1,11 +1,11 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-   <h2>hola mundo</h2>
+  <Navbar />
   );
 }
 
